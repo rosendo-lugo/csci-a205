@@ -1,0 +1,89 @@
+# load dependencies
+import os, csv
+
+# # directory
+# # proj_path = os.getcwd()
+# # subfolder = '' #'list_basics'
+# # filename = 'iris.csv'
+# # fpath = os.path.join(proj_path, subfolder, filename)
+# fpath = https://raw.githubusercontent.com/remjw/data/master/py_programming_data/iris.csv
+
+# # 1. read data
+# iris = 
+
+# with open(fpath, 'r', encoding='UTF-8') as f:
+#     iris = [
+#         #parse each value into one item in a tuple
+#         (
+#          float(row['sepal.length']),
+#          float(row['sepal.width']),
+#          float(row['petal.length']),
+#          float(row['petal.width']),
+#          row['variety'].lower()
+#         )
+#         for row in csv.DictReader(f)
+#     ] # list comprehension
+
+# # 2. inspect data
+# #print(iris) # list slice operator
+# print(f'''
+# First row: {iris[0]}
+# First two rows: {iris[0:2]}
+# First cell: {iris[0][0]}
+# ''')
+
+# '''3. Data size
+# '''
+# row_count = NotImplemented
+# column_count = NotImplemented
+
+# print(f''''
+# Number of iris samples: {row_count}
+# Number of variables/attributes: {column_count}
+# ''')
+
+# '''4. Analyze sepal.length column
+# '''
+# sepal_length = NotImplemented
+# #print(sepal_length)
+
+# s_max = NotImplemented
+# s_min = NotImplemented
+# s_avg = NotImplemented
+
+# print(f'''
+# sepal_length summary:
+# maximum : {s_max:.3f}
+# minimum : {s_min:.3f}
+# average : {s_avg:.3f}
+# ''')
+
+# '''5. Search the variety name(s) having max sepal_length
+# '''
+# variety_with_max_sepal_length = NotImplemented
+
+# print(f'''
+# Variety name(s) having maximum sepal_length: {variety_with_max_sepal_length}
+# ''')
+
+
+# '''6. Plot distribution of variety columdn in bar chart
+# save plot to file
+# '''
+# variety = NotImplemented
+# #print(variety)
+
+# # get frequency of each distinct variety
+# x = ['setosa', 'versicolor','virginica']
+# y = [0] * len(x) # list of three zeros
+
+# # write code here to populate y 
+
+# #print(y)
+
+# plt.bar(x, y, color=('y','g','k'))
+# plt.title('Histogram of Iris Variety')
+# plt.xlabel('Variety')
+# plt.ylabel('Count/frequency')
+# #plt.show()
+# plt.savefig(os.path.join(proj_path, subfolder, 'iris_histogram.png'))
