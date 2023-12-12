@@ -1,0 +1,26 @@
+Project Documentation
+
+1. Reference List:
+   - "Natural Language Processing Overview" from https://ds.codeup.com/nlp/overview/
+   - REVEL chapter books.
+   - Python Documentation: https://www.python.org/doc/
+   - Additional readings from Codeup curriculum.
+
+2. Statement of Originality:
+   I hereby declare that the source code for this project was written entirely by me, 
+   without copying from any other sources except for the references mentioned above.
+
+3. How to Run the Program:
+   - Ensure Python is installed on your system.
+   - Place the script file in a directory of your choice.
+   - Open a terminal or command prompt.
+   - Navigate to the directory containing the script.
+   - Run the script by typing 'spam_scanner.ipynb' and press Enter.
+
+4. Program Logic Description:
+   The program follows these steps for spam detection:
+   - Reads a list of spam keywords from a file.
+   - Processes the input email text to normalize it (lowercase, remove punctuation).
+   - Counts the occurrences of spam keywords and non-spam words.
+   - Calculates the spam-to-ham ratio and classifies the email based on predefined thresholds.
+   - Outputs whether the email is likely spam, possibly spam, or not spam.
